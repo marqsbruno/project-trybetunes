@@ -8,6 +8,8 @@ import Profile from './pages/Profile';
 import ProfileEdit from './pages/ProfileEdit';
 import NotFound from './pages/NotFound';
 
+// /profile/edit vai primeiro que o /profile ???
+
 class App extends React.Component {
   render() {
     return (
