@@ -6,7 +6,7 @@ class Login extends React.Component {
   constructor() {
     super();
     this.state = {
-      nameUser: '',
+      userName: '',
       loading: false,
       redirect: false,
     };
@@ -14,25 +14,24 @@ class Login extends React.Component {
 
   handleChange = ({ target }) => {
     this.setState({
-      nameUser: target.value,
+      userName: target.value,
     });
   }
 
   // then para esperar a promise e setar o valor do loading novo state para direcionar (gambiarra);
   handleClick = () => {
-    const { nameUser: user } = this.state;
+    const { userName } = this.state;
     this.setState({ loading: true });
-    createUser({ name: user }).then(() => {
+    createUser({ name: userName }).then(() => {
       this.setState({
         loading: false,
         redirect: true,
       });
     });
-    console.log(user);
   }
 
   render() {
-    const { nameUser: userName, loading, redirect } = this.state;
+    const { userName, loading, redirect } = this.state;
     const minChar = 3; // minimo de caracteres;
     return (
       <div data-testid="page-login">
