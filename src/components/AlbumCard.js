@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 class AlbumCard extends React.Component {
   render() {
@@ -28,5 +29,14 @@ class AlbumCard extends React.Component {
     );
   }
 }
+
+AlbumCard.propTypes = {
+  data: PropTypes.shape({
+    artistName: PropTypes.string,
+    collectionId: PropTypes.number,
+    collectionName: PropTypes.string,
+    artworkUrl100: PropTypes.string,
+  }).isRequired,
+};
 
 export default AlbumCard;
