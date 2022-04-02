@@ -21,7 +21,7 @@ class Album extends React.Component {
       collectionName: albumTracks[0].collectionName,
     });
     const { tracks } = this.state;
-    console.log(tracks); // array [0] não contem as músicas;
+    // console.log(tracks); // array [0] não contem as músicas;
   }
 
   render() {
