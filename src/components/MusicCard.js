@@ -39,10 +39,8 @@ class MusicCard extends React.Component {
       this.setState({ checked: true });
     } else {
       removeSong(data);
-      const newFavs = await getFavoriteSongs();
       this.setState({
         checked: false,
-        favSongs: newFavs,
       });
     }
   }
