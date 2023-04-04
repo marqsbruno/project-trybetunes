@@ -1,12 +1,12 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import Login from './pages/Login';
-import Search from './pages/Search';
 import Album from './pages/Album';
 import Favorites from './pages/Favorites';
+import Login from './pages/Login';
+import NotFound from './pages/NotFound';
 import Profile from './pages/Profile';
 import ProfileEdit from './pages/ProfileEdit';
-import NotFound from './pages/NotFound';
+import Search from './pages/Search';
 
 // /profile/edit vai primeiro que o /profile ???
 
@@ -14,7 +14,7 @@ class App extends React.Component {
   render() {
     return (
       <Switch>
-        <Route exact path="/" component={ Login } />
+        <Route component={ Login } exact path="/" />
         <Route path="/search" component={ Search } />
         <Route path="/album/:id" component={ Album } />
         <Route path="/favorites" component={ Favorites } />
