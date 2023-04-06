@@ -17,7 +17,7 @@ Bibliotecas:
 
 ```bash
 cd src/
-npm install
+npm install &&
 npm start
 ``` 
 
