@@ -1,10 +1,28 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Projeto Trybetunes
+
+Este projeto foi desenvolvido no módulo de Front-end do curso da Trybe.
+O projeto é uma aplicação capaz de reproduzir músicas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada, utilizando a API do Spotify.
+
+O projeto ainda não foi estilizado! :construction:
+
+## Técnologias usadas
+
+Front-end:
+> JS ES6, ReactJS, HTML e CSS
+
+Bibliotecas:
+> react-router-dom
+
+##Executando aplicação
+
+```bash
+cd src/
+npm install
+npm start
+``` 
+
+## Autor
+
+[Linkedin](https://www.linkedin.com/in/marques-bruno/)
+
+Os arquivos da pasta "/service" são de autoria da escola [Trybe](https://github.com/tryber)
