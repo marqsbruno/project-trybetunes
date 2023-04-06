@@ -5,7 +5,7 @@ O projeto é uma aplicação capaz de reproduzir músicas, criar uma lista de m�
 
 O projeto ainda não foi estilizado! :construction:
 
-## Técnologias usadas
+## Tecnologias usadas
 
 Front-end:
 > JS ES6, ReactJS, HTML e CSS
