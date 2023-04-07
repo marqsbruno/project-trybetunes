@@ -8,12 +8,14 @@ O projeto ainda não foi estilizado! :construction:
 ## Tecnologias usadas
 
 Front-end:
-> JS ES6, ReactJS, HTML e CSS
+- JS ES6
+- ReactJS
+- HTML
 
 Bibliotecas:
-> react-router-dom
+- react-router-dom
 
-##Executando aplicação
+## Executando aplicação
 
 ```bash
 cd src/
@@ -23,6 +25,7 @@ npm start
 
 ## Autor
 
+[@marqsbruno](https://www.github.com/marqsbruno)
 [Linkedin](https://www.linkedin.com/in/marques-bruno/)
 
 Os arquivos da pasta "/service" são de autoria da escola [Trybe](https://github.com/tryber)
