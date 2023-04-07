@@ -5,7 +5,7 @@ O projeto é uma aplicação capaz de reproduzir músicas, criar uma lista de m�
 
 O projeto ainda não foi estilizado! :construction:
 
-## Tecnologias usadas
+## Tecnologias usadas 🛠
 
 Front-end:
 - JS ES6
@@ -15,17 +15,17 @@ Front-end:
 Bibliotecas:
 - react-router-dom
 
-## Executando aplicação
+## Executando aplicação ⚡️
 
-```bash
+```
 cd src/
 npm install &&
 npm start
 ``` 
 
-## Autor
+## Autor 👥
 
-[@marqsbruno](https://www.github.com/marqsbruno)
-[Linkedin](https://www.linkedin.com/in/marques-bruno/)
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marques-bruno/](https://www.linkedin.com/in/marques-bruno/))
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/marqsbruno](https://github.com/marqsbruno))
 
 Os arquivos da pasta "/service" são de autoria da escola [Trybe](https://github.com/tryber)
