@@ -1,7 +1,7 @@
 # Projeto Trybetunes
 
 Este projeto foi desenvolvido no módulo de Front-end do curso da Trybe.
-O projeto é uma aplicação capaz de reproduzir músicas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada, utilizando a API do Spotify.
+O projeto é uma aplicação capaz de reproduzir músicas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada, utilizando a API da Apple Music.
 
 O projeto ainda não foi estilizado! :construction:
 
